@@ -1,0 +1,12 @@
+.form{
+    background-color: #0de97b;
+}
+#name{
+    background-color: rgb(150, 69, 106);
+}
+#pwd{
+    background-color: rgb(179, 98, 136);
+}
+#btn:hover{
+    background-color: #f30c0c;
+}
