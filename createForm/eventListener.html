@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <p id="js">learning eventListener</p>
+    <button onclick="maths()" id="btn">submit</button>
+
+    <script>
+        // document.addEventListener("click", greeting)
+
+        //     function greeting(){
+        //         document.getElementById("js").innerText = "welcome , you have niclely clicked mouse"
+        //     }
+
+        // ()=>{document.getElementById("js").innerText = "welcome , you have niclely clicked mouse"}
+
+        function maths(){
+            let value = prompt("can you solve 50-20");
+            if(value ==30 ){
+                document.getElementById("btn").innerText = "success"
+                document.getElementById("btn").style.backgroundColor ="blue"
+            }
+            else{
+                document.getElementById("btn").innerText = "fail"
+                document.getElementById("btn").style.backgroundColor ="red"
+            }
+        }
+
+    </script>
+</body>
+</html>
